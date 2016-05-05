@@ -1,0 +1,29 @@
+﻿/* 内容 */
+#content {
+	padding: 2%;
+}
+
+.bookDiv {
+	margin-left: 5%;
+	margin-top: 2%;
+	float: left;
+	height: 30%;
+	width: 16%;
+}
+
+.bookName {
+	text-align: center;
+}
+
+.checkbox {
+	margin-left: 10%;
+}
+
+#btnComplete {
+	
+} 
+.container {
+	background-color: #FFF;
+	height: 100%;
+}
+/* 内容 结束 */
