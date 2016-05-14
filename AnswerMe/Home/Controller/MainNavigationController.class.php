@@ -92,19 +92,19 @@ class MainNavigationController extends Controller {
 		$this->ajaxReturn($dataReturn, 'json');
 	}
 
-	// /**
-	//  * 根据sesion判断用户是否登录
-	//  */
-	// public JudgeSession() {
-	// 	if(!session("uid")){
- //            $dataReturn['status'] = 0;
- //            $dataReturn['msg'] = '请先登录!';
- //        }
- //        else {
- //        	$dataReturn['status'] = 1;
- //        }
+	/**
+	 * 根据sesion判断用户是否登录
+	 */
+	public function JudgeSession() {
+		if(!session('uid')) {
+            $dataReturn['status'] = 0;
+            $dataReturn['msg'] = '请先登录!';
+        }
+        else {
+        	$dataReturn['status'] = 1;
+        }
 
- //        $this->ajaxReturn($dataReturn, 'json');
-	// }
+        $this->ajaxReturn($dataReturn, 'json');
+	}
 
 }

@@ -21,7 +21,7 @@
     <!-- 导航栏 -->
     <nav class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
-        <a class="navbar-brand" href="home.html">
+        <a class="navbar-brand" href="http://localhost/answer_me/home.php/HomePage">
           <img src="/answer_me/AnswerMe/Common/Static/resource/logo-green.jpg">
           <span>Answer Me</span>
         </a>

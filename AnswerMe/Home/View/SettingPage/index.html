@@ -116,7 +116,7 @@
 							<div class="form-group">
 								<label for="inputUsername1" class="col-sm-2 control-label">用户名</label>
 								<div class="col-sm-10">
-									<input type="email" class="form-control" id="inputUsername1">
+									<input type="username" class="form-control" id="inputUsername1">
 								</div>
 							</div>
 							<div class="form-group">
@@ -196,32 +196,32 @@
 			<!-- 除了添加，不要改动一切其他东西-->
 			<form class="form-horizontal" role="form">
 				<div class="form-group">
-					<label for="inputUsername1" class="col-sm-2 control-label">用户名</label>
+					<label for="inputUsername2" class="col-sm-2 control-label">用户名</label>
 					<div class="col-sm-10">
-						<input type="email" class="form-control" id="inputUsername1">
+						<input type="username" class="form-control" id="inputUsername2">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="inputPassword1" class="col-sm-2 control-label">密码</label>
+					<label for="inputPassword2" class="col-sm-2 control-label">密码</label>
 					<div class="col-sm-10">
-						<input type="password" class="form-control" id="inputPassword1">
+						<input type="password" class="form-control" id="inputPassword2">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="inputRepeatpassword" class="col-sm-2 control-label">重复密码</label>
+					<label for="inputRepeatpassword2" class="col-sm-2 control-label">重复密码</label>
 					<div class="col-sm-10">
-						<input type="password" class="form-control" id="inputRepeatpassword">
+						<input type="password" class="form-control" id="inputRepeatpassword2">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="inputEmail" class="col-sm-2 control-label">邮箱</label>
+					<label for="inputEmail2" class="col-sm-2 control-label">邮箱</label>
 					<div class="col-sm-10">
-						<input type="email" class="form-control" id="inputEmail">
+						<input type="email" class="form-control" id="inputEmail2">
 					</div>
 				</div>							
 				<div class="form-group">
-					<label for="inputSchool" class="col-sm-2 control-label">学校</label>
-					<select class="form-control" id="selectSchool">
+					<label for="inputSchool2" class="col-sm-2 control-label">学校</label>
+					<select class="form-control" id="selectSchool2">
 						<option>选择你的学校</option>
 						<option>中山大学</option>
 						<option>清华大学</option>
@@ -230,8 +230,8 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="inputCollege" class="col-sm-2 control-label">学院</label>
-					<select class="form-control" id="selectCollege">
+					<label for="inputCollege2" class="col-sm-2 control-label">学院</label>
+					<select class="form-control" id="selectCollege2">
 						<option>选择你的学院</option>
 						<option>软件学院</option>
 						<option>岭南学院</option>
@@ -241,8 +241,8 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="inputMajor" class="col-sm-2 control-label">专业</label>
-					<select class="form-control" id="selectMajor">
+					<label for="inputMajor2" class="col-sm-2 control-label">专业</label>
+					<select class="form-control" id="selectMajor2">
 						<option>选择你的专业</option>
 						<option>数字媒体</option>
 						<option>电子政务</option>
@@ -252,8 +252,8 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="inputYear" class="col-sm-2 control-label">入学年份</label>
-					<select class="form-control" id="selectYear">
+					<label for="inputYear2" class="col-sm-2 control-label">入学年份</label>
+					<select class="form-control" id="selectYear2">
 						<option>选择你的入学年份</option>
 						<option>2014</option>
 						<option>2013</option>
@@ -263,7 +263,7 @@
 					</select>
 				</div>
 			</form>
-			<button type="button" class="btn btn-block" data-dismiss="modal">确认修改</button>
+			<button type="button" class="btn btn-block" data-dismiss="modal" id="confirm">确认修改</button>
 		</div>
 		<!-- /.内容 -->
 
