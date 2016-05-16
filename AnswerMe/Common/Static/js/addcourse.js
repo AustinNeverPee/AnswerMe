@@ -43,6 +43,7 @@ function FinishEdit() {
 		alert("您输入的信息不完整!");
 	}
 	else {
+        // alert(course_college + course_school + course_major + course_grade + course_name + course_teacher + course_time + course_place);
 		$.ajax({
             type: "POST",
             url: "http://localhost/answer_me/home.php/AddCoursePage/EditCourse",
@@ -57,10 +58,10 @@ function FinishEdit() {
             dataType: "json",
             success: function(data) {
                 if (data.status == 1) {
-                    alert("添加课程成功！");
+                    alert(data.msg);
 
                     //将页面重定向到新添加的课程页面
-                    window.location.href = "http://localhost/answer_me/home.php/InterestPage";
+                    window.location.href = data.url;
                 } else {
                     alert(data.msg);
                 }

@@ -196,11 +196,11 @@
       <!-- 除了添加，不要改动一切其他东西-->
       <!-- 左边目录 -->
       <!-- 搜索框 -->
-        <!-- 右边内容 -->
+      <!-- 右边内容 -->
       <div class="right-content">
         <div class="sum">
           <div class="photos">
-            <input id="fileupload" type="file" name="files[]" data-url="server/php/" multiple>
+            <input type="file" name="photo" />
           </div>
           <div class="infos">
             <span>
@@ -277,8 +277,5 @@
     <script src="/answer_me/AnswerMe/Common/Static/js/addcourse.js"></script> 
     <script src="/answer_me/AnswerMe/Common/Static/js/template.js"></script>
     <script src="/answer_me/AnswerMe/Common/Static/js/jquery.cookie.js"></script>
-    <script src="/answer_me/AnswerMe/Common/Static/js/jquery.fileupload.js"></script>
-    <script src="/answer_me/AnswerMe/Common/Static/js/jquery.iframe-transport.js"></script>
-    <script src="/answer_me/AnswerMe/Common/Static/js/jquery.ui.widget.js"></script>
   </body>
 </html>
